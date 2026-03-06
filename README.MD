@@ -1,7 +1,7 @@
 # fastapi-cachemate
 
-[![CI](https://github.com/diyelise/test/actions/workflows/ci.yml/badge.svg)](https://github.com/diyelise/test/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/github/diyelise/test/branch/master/graph/badge.svg?token=0M8Q1KMOMU)](https://codecov.io/github/diyelise/test)
+[![CI](https://github.com/diyelise/fastapi-cachemate/actions/workflows/ci.yml/badge.svg)](https://github.com/diyelise/fastapi-cachemate/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/github/diyelise/fastapi-cachemate/branch/master/graph/badge.svg)](https://codecov.io/github/diyelise/fastapi-cachemate)
 ![Python](https://img.shields.io/badge/python-3.10%20|%203.11%20|%203.12%20|%203.13-blue)
 
 Simple and lightweight library for caching responses with minimal external dependencies.
