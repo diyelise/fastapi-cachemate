@@ -1,0 +1,43 @@
+[tool.poetry]
+name = "fastapi-cachemate"
+version = "0.1.0"
+description = "Simple and lightweight library for caching responses with minimal external dependencies."
+authors = ["Dmitry.Eliseenko"]
+license = "Apache 2.0"
+readme = "README.MD"
+packages = [{include = "fastapi_cachemate"}]
+
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.14"
+fastapi = "^0.116.1"
+redis = "6.2.0"
+pydantic-settings = "^2.10.1"
+uvicorn = "^0.35.0"
+orjson = "3.11.5"
+uvloop = "^0.22.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.4.1"
+pytest-asyncio = "^1.1.0"
+pytest-cov = "^6.2.1"
+httpx = "^0.28.1"
+asgi-lifespan = "^2.1.0"
+ruff = "^0.12.10"
+mypy = "^1.17.1"
+bandit = "^1.8.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.mypy]
+python_version = "3.12"
+# https://pydantic-docs.helpmanual.io/mypy_plugin/#configuring-the-plugin
+plugins = "pydantic.mypy"
+strict = true
+disallow_subclassing_any = false
+ignore_missing_imports = true
+exclude = "build|dist|htmlcov|mount|.venv|tests"
