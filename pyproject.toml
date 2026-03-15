@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "fastapi-cachemate"
-version = "0.1.0"
+version = "0.1.1"
 description = "Simple and lightweight library for caching responses with minimal external dependencies."
 authors = ["Dmitry.Eliseenko"]
 license = "Apache 2.0"
