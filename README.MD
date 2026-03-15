@@ -1,5 +1,3 @@
-from fastapi.params import Query
-
 # fastapi-cachemate
 
 [![CI](https://github.com/diyelise/fastapi-cachemate/actions/workflows/ci.yml/badge.svg)](https://github.com/diyelise/fastapi-cachemate/actions/workflows/ci.yml)
@@ -18,7 +16,7 @@ Inspired by [fastapi-cache](https://github.com/long2ice/fastapi-cache).
 - Smart compression and decompression for storage
 - Cache stampede mitigation
 - Bypass mode for skipping cache
-- Flexible filters for Pydantic, dataclasses, and custom classes
+- Support filters from Pydantic, dataclasses, and custom classes
 
 ## Requirements
 
